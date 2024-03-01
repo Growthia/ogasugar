@@ -1,9 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "CinzelDecorative": "CinzelDecorative",
+        "Urbanist": "Urbanist"
+      }
+    },
   },
   plugins: [],
 }
-
