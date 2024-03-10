@@ -1,4 +1,11 @@
+import { useEffect } from "react";
+
 const Cursor = ()=> {
+
+    useEffect(()=> {
+        
+    }, [])
+
     return (
         <div className="cursor">
             <div className="big" />

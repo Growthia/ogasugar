@@ -8,6 +8,12 @@
     font-family: Urbanist, Arial, Helvetica, sans-serif;
 }
 
+.vertical-text {
+    writing-mode: vertical-lr; /* for modern browsers */
+    writing-mode: tb-lr; /* for old versions of Firefox */
+    transform: rotate(180deg); /* fallback for IE */
+}
+
 * {
     /* cursor: none; */
 }
